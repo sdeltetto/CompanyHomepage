@@ -1,0 +1,162 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: aliceblue;
+    color: hsla(0, 0%, 8%, 1);
+    font-family: 'EB Garamond', serif;
+    font-size: 22px;
+    font-weight: 500;
+    opacity: 1;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+header {
+    color: hsla(0, 0%, 8%, 1);
+    display: flex;
+    flex-direction: column;
+    font-family: "EB Garamond", serif;
+    font-size: 22px;
+    text-align: center;
+    height: 200px;
+    width: 100%;
+}
+
+header h1 {
+    display: block;
+    font-weight: 700;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.nav p {
+    margin: auto 30px;
+}
+
+p a {
+    color: hsla(0, 0%, 8%, 1);
+}
+
+main {
+    width: 100%;
+}
+
+#banner {
+    width: 90%;
+    height: 500px;
+    display: inline-block;
+    background-image: url('./Images/lycs-architecture-aKij95Mmus8-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.text-over {
+    margin-top: 200px;
+    background-color: aliceblue;
+    vertical-align: auto;
+    height: 100px;
+}
+
+.text-over h2 {
+    margin-bottom: 0;
+}
+
+.text-over p {
+    margin-top: 0;
+}
+
+#portfolio {
+    margin-top: 40px;
+    display: block;
+    width: 100%;
+}
+
+#portfolio h2 {
+    margin-bottom: 0;
+}
+
+.second {
+    margin-bottom: 50px;
+}
+
+.product-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    flex: 1 1;
+}
+
+.product {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.product img {
+    height: 200px;
+    width: 300px;
+    border-radius: 5px;
+}
+
+#team {
+    margin-top: 40px;
+    display: block;
+}
+
+#team h2, p {
+    text-align: center;
+}
+
+.team-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.box img {
+    height: 350px;
+    width: 250px;
+    border-radius: 5px;
+}
+
+.box h3 {
+    margin: 12px auto 0 auto;
+}
+
+.box p {
+    margin: 0 auto;
+}
+
+.product span {
+    margin-left: 30px;
+}
+
+footer {
+    margin-top: 70px;
+    width: 100%;
+}
+
+.contacts h1 {
+    margin-bottom: 10px;
+}
+
+.contacts p {
+    margin: 0 auto;
+}
+
+.copyright {
+    font-size: 14px;
+    float: left;
+    padding-left: 30px;
+}
